@@ -1,0 +1,27 @@
+# Raw sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Alignment files
+*.sam
+*.bam
+*.bai
+
+# Reference genome
+*.fa
+*.fasta
+*.fai
+*.dict
+
+# VEP cache
+vep/
+*.tar.gz
+
+# Large intermediate files
+*.tmp
+
+# Operating system
+.DS_Store
+Thumbs.db
